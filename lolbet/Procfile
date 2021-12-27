@@ -1,1 +1,1 @@
-web: gunicorn lolbet.wsgi --log-file -
+web: gunicorn lolbet.wsgi --log-file-
