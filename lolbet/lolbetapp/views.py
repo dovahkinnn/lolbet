@@ -5,14 +5,7 @@ from django.shortcuts import render
 import pyrebase
 # Create your views here.
 config = {
-  "apiKey": "AIzaSyAwH2uSz9iiUTBa8W4NMf-3Osu7spMmbz4",
-  "authDomain": "django-c0d88.firebaseapp.com",
-  "projectId": "django-c0d88",
-  "storageBucket": "django-c0d88.appspot.com",
-  "messagingSenderId": "290546126178",
-  "appId": "1:290546126178:web:68e8cefcd33dbf6259b03b",
-  "measurementId": "G-F5G1043X39",
-  "databaseURL": "https://django-c0d88-default-rtdb.firebaseio.com",
+  
 }
 
 firebase=pyrebase.initialize_app(config)
